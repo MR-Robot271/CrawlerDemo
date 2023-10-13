@@ -1,6 +1,6 @@
 package com.kbwind;
 
-
+// 网页中的Product的实体类
 public class Product {
     public String pImage;
     public float price;
