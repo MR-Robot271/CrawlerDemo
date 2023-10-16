@@ -42,10 +42,10 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Product{" +
-                "pImage='" + pImage + '\'' +
-                ", price=" + price +
-                ", pName='" + pName + '\'' +
+        return "产品{" +
+                "图片地址='" + pImage + '\'' +
+                ", 价格=" + price +
+                ", 产品名称='" + pName + '\'' +
                 '}';
     }
 }

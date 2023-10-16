@@ -9,7 +9,7 @@ public class Test {
         // 搜索的地址
         String url="https://www.ehsy.com/search?k=";
         // 搜索的产品名
-        String pName="伊内 偏航电机";
+        String pName="伊内";
         CrawlerDemo crawlerDemo = new CrawlerDemo(url,pName);
         Set<Product> crawlerResult = crawlerDemo.Crawler();
         System.out.println("得到的数据量:"+crawlerResult.size());
